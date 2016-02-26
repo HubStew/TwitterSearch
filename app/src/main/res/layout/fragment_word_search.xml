@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentWordSearch">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/word_search_edit_text"
+                        android:lines="@color/colorPrimaryDark"
+                        android:layout_weight="3"
+                        android:singleLine="true"
+                        android:hint="검색어를 입력해 주세요."
+                        android:maxLength="15"
+                        android:text=""/>
+
+                    <Button
+                        android:id="@+id/word_search_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/blue_button"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+
+                        android:text="검색"/>
+
+                    <Button
+                        android:id="@+id/graph_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/blue_button"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+
+                        android:text="그래프"/>
+
+               </LinearLayout>
+
+            <ListView
+                android:id="@+id/word_result_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#96d1ff</color>
+
+    <!--Default Color-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="halfwhite">#88ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="halfgray">#dddddd</color>
+    <color name="background">#efefef</color>
+    <color name="toolbar_bg">#448aff</color>
+    <color name="border_color">#ffdddddd</color>
+    <color name="orange">#ff6e40</color>
+    <color name="green">#4CCC32</color>
+
+    <!--DEMO-->
+    <color name="blue_0">#2196f3</color>
+    <color name="blue_1">#1976d2</color>
+    <color name="blue_2">#2b4059</color>
+    <color name="blue_3">#263238</color>
+    <color name="gray_0">#efefef</color>
+    <color name="gray_1">#ced0d1</color>
+    <color name="gray_2">#b4b6b7</color>
+    <color name="orange_0">#ffa625</color>
+    <color name="orange_1">#ff6d3f</color>
+    <color name="notepad">#FFFFE9</color>
+    <color name="window_bg">#ffe1e1e1</color>
+    <color name="default_text_color">#ff313131</color>
+    <color name="text_gray">#ff696969</color>
+    <color name="bar_red">#ffd04e31</color>
+    <color name="bar_blue">#ff1288d0</color>
+    <color name="tab_normal">#ffffff</color>
+    <color name="tab_press">#d3d4d4</color>
+    <color name="tab_select">#2196f3</color>
+    <color name="draft_panel">#88ffa625</color>
+    <color name="bookmark_normal">#ffffff</color>
+    <color name="bookmark_press">#ffd890</color>
+
+</resources>
